@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=, shrink-to-fit=no"> -->
+  <!-- BUG: Viewport ignorado por conflicto con bootstrap -->
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/style_b.css">
+
+  <!-- iconos ionicons -->
+  <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="plugins/bootstrap.js"></script>
+
+  <title>Contact us</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="resources/img/logo.svg" class="logo-brand" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="icon ion-md-menu"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" id="contact">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="history.html" id="history">Historia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product.html" id="product">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="promotion.html" id="promotion">Promociones</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main role="main" class="container" id="container">
+    <div class="py-5 text-center">
+      <h2>Dudas o Preguntas</h2>
+      <p class="lead">Puedes enviarnos tus diferentes preguntas o dudas acerca de la plataforma de la Ferreteria, o si tienes comentarios y deseas compratirlo con nosotros</p>
+      <br>
+      <p class="lead">
+        No te olvides de nuestros diferentes contactos en donde con gusto te atenderemos
+      </p>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4  order-1 mb-5">
+        <h4 class="d-flex justify-content-between align-items-center mb-3">
+          <span>Contactanos</span>
+        </h4>
+        <ul class="list-group mb-3">
+          <li class="list-group-item d-flex justify-content-between lh-condensed">
+            <div>
+              <h6 class="my-0">Facebook</h6>
+              <a href="#">www.facebook.com</a>
+            </div>
+            <span><i class="icon ion-logo-facebook"></i></span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-condensed">
+            <div>
+              <h6 class="my-0">Twitter</h6>
+              <a href="#">www.twitter.com</a>
+            </div>
+            <span><i class="icon ion-logo-twitter"></i></span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-condensed">
+            <div>
+              <h6 class="my-0">Telefono</h6>
+              <h6>(+503)1234-5678</h6>
+            </div>
+            <span><i class="icon ion-md-call"></i></span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-condensed">
+            <div>
+              <h6 class="my-0">Correo</h6>
+              <a href="#">example@example.com</a>
+            </div>
+            <span><i class="icon ion-md-mail"></i></span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-condensed">
+            <div>
+              <h6 class="my-0">Dirección</h6>
+              <h6>Carr. Panamericana, Santa Tecla</h6>
+            </div>
+            <span><i class="icon ion-md-pin"></i></span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 order-1">
+        <h4 class="mb-3">Atención al Cliente</h4>
+        <script type="text/javascript" src="js/valid.js">
+        </script>
+        <!-- Los input llevan asignado un required pero como segunda opcion lleva js para validar -->
+        <form class="form-group" id="formulario-contacto">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">
+              <label>Nombre</label>
+              <input type="text" class="form-control" name="nombre" placeholder="Ingresa tu Nombre" required>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">
+              <label>Apellido</label>
+              <input type="text" class="form-control" name="ape" placeholder="Ingresa tu Apellido" required>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 mb-3">
+              <label>Correo Electronico</label>
+              <input type="email" class="form-control" name="email" placeholder="Ingresa tu Correo Electronico" required>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 mb-3">
+              <label>Numero</label>
+              <input type="number" class="form-control" name="tel" placeholder="Ingresa tu Numero" required>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-3">
+              <label>Mi Comentario / Consulta</label>
+              <textarea class="form-control" name="mensaje" rows="3" placeholder="Ingresa tu Comentario / Consulta" required></textarea>
+            </div>
+          </div>
+
+          <hr class="mb-4">
+
+          <button class="btn btn-primary btn-lg btn-block" type="submit" onclick="valid()">Enviar Comentario / Consulta</button>
+        </form>
+      </div>
+
+    </div>
+    <div class="map text-center">
+      <p class="lead">
+        Nuestra Ubicación Aqui:
+      </p>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.732627956022!2d-89.28096928517037!3d13.674015290397792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f632e511f372dd3%3A0x3fe0c1447718b059!2sEscuela%20Especializada%20en%20Ingenier%C3%ADa%20ITCA%20FEPADE!5e0!3m2!1ses-419!2ssv!4v1592532695411!5m2!1ses-419!2ssv"
+        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+      </iframe>
+    </div>
+
+  </main>
+
+  <footer class="footer font-small" id="footer">
+    <div class="footer-copyright text-center py-4">© 2020 Copyright:
+      <h6>Developed by: Ademir Rivera</h6>
+      <a href="https://www.itca.edu.sv/">ITCA FEPADE</a>
+    </div>
+  </footer>
+
+</body>
+</html>

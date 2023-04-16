@@ -1,0 +1,22 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+#container{
+  margin-top: 115px;
+  padding-bottom: 150px;
+}
+
+#footer{
+background-color: #1B2631;
+color: #fff;
+}
+
+i{
+font-size: 30px;
+}
+
+.map {
+  margin-top: 50px;
+}

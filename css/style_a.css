@@ -1,0 +1,85 @@
+#fondo {
+  background-image: url('../resources/img/bginita.jpg');
+  background-size: cover;
+  margin-top: 90px;
+  padding-top: 90px;
+  min-height: 700px;
+}
+
+#fondo1 {
+background-color: #5DADE2 ;
+  min-height: 500px;
+}
+
+/* TODO: Codigo opcional por fallo en text-center de bootstrap
+ .content-center {
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+} */
+#titleinit {
+  font-size: 66px;
+  font-weight: 600;
+  line-height: 80px;
+  color: #fff;
+}
+
+#footer{
+background-color: #1B2631;
+color: #fff;
+}
+
+#pargrinit {
+  font-size: 25px;
+  line-height: 1.8;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+#imga{
+  width: 350px;
+}
+
+#imgb{
+  width: 500px;
+}
+
+.topmargin-lg {
+  margin-top: 60px;
+}
+
+.topmargin-sm {
+  margin-top: 30px;
+}
+
+.topmargin-xs {
+  margin-top: 15px;
+}
+
+section{
+  padding: 120px 0;
+}
+
+.portafolio-container{
+  padding-top: 50px;
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 2px;
+  height: 500px;
+}
+
+.portafolio-details{
+  bottom: 25px;
+  left: 25px;
+  z-index: 9000;
+  color: #000;
+}
+
+.portafolio-container img{
+  transition: all 0.8s;
+}
+
+.portafolio-container:hover img{
+  transform: scale(1.2)
+}

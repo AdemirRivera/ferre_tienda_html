@@ -1,0 +1,60 @@
+section {
+  padding: 120px 0;
+}
+
+#fondo1 {
+  margin-top: 100px;
+  background-color: #27AE60;
+  padding-top: 120px;
+  min-height: 500px;
+}
+
+#fondo2 {
+  background-color: #3498DB;
+  padding-top: 90px;
+  min-height: 700px;
+}
+
+#fondo4 {
+  background-color: #E67E22;
+  min-height: 700px;
+}
+
+#titleinit {
+  font-size: 66px;
+  font-weight: 600;
+  line-height: 80px;
+  padding: 20px 20px;
+  color: #fff;
+}
+
+#titlesec {
+  padding: 20px 20px;
+  color: #fff;
+}
+
+#pargrinit {
+  font-size: 25px;
+  line-height: 1.8;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+#pargrsec {
+  line-height: 1.8;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+#footer {
+  background-color: #1B2631;
+  color: #fff;
+}
+
+#imga{
+  width: 200px;
+}
+
+.table td,th{
+  vertical-align: middle !important;
+}

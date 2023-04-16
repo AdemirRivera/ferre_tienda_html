@@ -1,0 +1,33 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+  min-height: 100px;
+}
+
+.nav-link {
+  color: #1a1a1a;
+}
+
+.nav-link:hover {
+  color: #da1c10;
+}
+
+.logo-brand {
+  min-height: 70px;
+  max-height: 80px;
+  padding-right: 10px;
+}
+
+/* Verificar superpocision por el !important */
+.navbar-toggler {
+  font-size: 40px !important;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
